@@ -1,0 +1,550 @@
+body{
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #e8166f; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background:red; 
+  }
+.fulli-ipar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.fulli-nalt{
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width:600px){
+    .fulli-nalt{
+        height: 50vh;
+    }
+    .f-menu div a{
+        font-size: 80%;
+    }
+    .fulli-posht .djatht .fullplusat span{
+        font-size: 80%;
+    }
+}
+@media only screen and (max-width:400px){
+    .fulli-nalt{
+        height: 40vh;
+    }
+    .f-menu div a{
+        font-size: 60%;
+    }
+    .fulli-posht .djatht .fullplusat span{
+        font-size: 60%;
+    }
+}
+.fulli-nalt .majt{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.fulli-nalt .djatht{
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('https://w0.peakpx.com/wallpaper/634/57/HD-wallpaper-netflix-squid-game-poster.jpg');
+    width: 50%;
+}
+.fulli-nalt .majt .f-titulli{
+    position: relative;
+    top: 3%;
+    left: 10%;
+    width: 20%;
+    height: 10%;
+}
+.f-titulli img{
+    width: 80%;
+}
+.fulli-nalt .majt .f-menu{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 11%;
+    top: 20%;
+    width: 20%;
+}
+.f-menu div{
+    font-size: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    color: red;
+
+}
+.f-menu div img{
+    margin-top: 1%;
+    padding-left: 5%;
+    width: 18%;
+    opacity: 0;
+}
+.f-menu div:hover img{
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+}
+.f-menu div .info{
+    width: 40%;
+}
+.f-menu div a{
+    font-family: 'Neonderthaw', cursive;
+    color: white;
+    text-decoration: none;
+
+}
+.f-menu div a:hover{
+    transition: ease-in-out 0.2s;
+
+    color: #ff0066;
+}
+.djatht .fotoja img{
+    background-size: contain;
+    height: 100%;
+    opacity: 0.9;
+    width: 100%;
+}
+
+.djatht .fontmeme{
+    width: 35%;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+}
+.fulli-posht{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+}
+.fulli-posht .djatht{
+    width: 50%;
+    height: 100%;
+    color: #7E868A;
+}
+.fulli-posht .majt{
+    width: 50%;
+    height: 100%;
+}
+.fulli-posht .majt img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.fulli-footer{
+    width: 100%;
+}
+.fulli-footer a{
+    position: relative;
+    padding-left: 50%;
+}
+.fulli-footer a img{
+    width: 40%;
+    height: 50%;
+}
+.fulli-posht .djatht .fullplusat{
+    font-family: 'Neonderthaw', cursive;
+    width: 85%;
+    padding-top: 5%;
+}
+.fullplusat .plus18{
+    padding-bottom: 15%;
+}
+.fullplusat .vija18{
+    width: 100%;
+    color: #7E868A;
+    border: 1px solid;
+}
+.cash{
+padding: 5% 0;
+}
+.emratt{
+    padding: 5% 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.majtaa{
+    width: 100%;
+    height: 100%;
+}
+.djathtaa{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+/* info */
+
+.sec-full{
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: 100%;
+    background-image: url('https://w0.peakpx.com/wallpaper/199/132/HD-wallpaper-squid-game-trio-squid-game-2021-netflixkr-netflix-india-squid-games.jpg');
+    width: 100%;
+}
+
+.sec-full h3{
+    font-family: 'Cinzel', serif;
+}
+.sec-full .back-button {
+    position: fixed;
+    margin-left: 0%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.sec-first{
+    display: flex;
+    flex-direction: row;
+    color: #7E868A;
+}
+.sec-first .foto{
+    padding-left: 2%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.sec-first .foto h3, p{
+    font-size: 1.2vw;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+.sec-first .foto2 img{
+    padding-top: 30%;
+    width: 100%;
+}
+.sec-first .foto2{
+    padding-left: 18%;
+    width: 30%;
+}
+
+.sec-first .foto2 h3, p{
+    font-size: 1.2vw;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.sec-first .katrori{
+    width: 7.5%;
+    padding-left: 10%;
+    padding-top: 20%;
+}
+.sec-first .katrori div{
+    width: 80%;
+    height: 25%;
+    border: 5px solid #e8166f;
+    -moz-box-shadow:    inset 0 0 10px #e8166f;
+    -webkit-box-shadow: inset 0 0 10px #e8166f;
+    box-shadow:         inset 0 0 10px #e8166f;
+    transition: ease-in-out 0.5s;
+}
+.sec-first .katrori div:hover{
+    border:4px solid red;
+    transform: rotate(360deg);
+}
+.sec-second{
+    font-size: 1.2vw;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 92.3%;
+
+}
+.sec-second .qika h3, p{
+    color: #7E868A;
+}
+.sec-second .qika h3{
+    padding-left: 5%;
+}
+.sec-second .qika{
+    padding-left: 5%;
+    width: 40%;
+}
+.sec-second .kimjungi{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sec-second .qika img{
+    width: 100%;
+}
+.sec-second .kimjungi img{
+    padding-left: 50%;
+    width: 50%;
+}
+.sec-second .kimjungi p, h3{
+    color: #7E868A;
+    padding-left: 52%;
+}
+.sec-third{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-third div{
+    align-items: center;
+}
+.sec-third div img{
+    width: 30vw;
+}
+.sec-fourth{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.sec-fourth .prindi-i-rrethit{
+    width: 30%;
+}
+.sec-fourth .rrethi{
+    margin-left: 10%;
+    margin-top: 30%;
+    height: 5vw;
+    width: 20%;
+    border-radius: 50%;
+    border: 0.6vw solid #85afd5;
+    transition: ease-in-out 0.2s;
+}
+.sec-fourth .prindi-i-rrethit .rrethi:hover{
+    border: 0.6vw solid red;
+}
+.sec-fourth .fotoja{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.sec-fourth .fotoja img{
+    transform: translateX(-35%);
+    padding-bottom: 3%;
+    width: 100%;
+}
+.sec-fourth .fotoja a{
+    font-size: 1.2vw;
+    margin-top: -5%;
+    margin-left: 45%;
+    width: fit-content;
+  color: white;    
+}
+.sec-fifth{
+    padding-left: 13%;
+    padding-top: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.sec-fifth .fotoja{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+
+.sec-fifth .fotoja a{
+    color: white;
+    font-size: 1.2vw;
+}
+.sec-fifth .fotoja img{
+    width: 100%;
+}
+.sec-fifth .katrori{
+    padding-top: 15%;
+    padding-left: 35%;
+    width: 15%;
+}
+.sec-fifth .katrori img{
+    padding-top: 80%;
+    width: 50%;
+}
+
+.sec-sixth{
+    
+    padding-top: 20%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sec-sixth .fillimi img{
+    margin-left: 5%;
+    width: 35vw;
+}
+.sec-sixth .detalet{
+    font-family: 'Bebas Neue', cursive;
+    -webkit-box-shadow: 0px 0px 35px 22px #000000; 
+    box-shadow: 0px 0px 35px 22px #000000;
+    background-clip: border-box;
+    padding-top: 3%;
+    margin-left: 5%;
+    width: 40%;
+}
+.sec-sixth .second-vija{
+    border: 1px solid #7E868A;
+}
+.sec-sixth .third-text{
+    display: flex;
+    flex-direction: row;
+}
+.sec-sixth .third-text .first{
+    width: 80%;
+}
+.sec-sixth .third-text .second{
+    width: 20%;
+}
+
+.sec-seventh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.sec-seventh img{
+    width: 30%;
+}
+
+ /* VIDEOS */
+.third-full{
+    background-image: url('https://w0.peakpx.com/wallpaper/199/132/HD-wallpaper-squid-game-trio-squid-game-2021-netflixkr-netflix-india-squid-games.jpg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: 100%;
+    width: 100%;
+}
+.videoss{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+}
+.w1e3e1d2{
+    position: relative;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.w1e3e1d2 img{
+    width: 50%;
+    margin-left: 22.5%;
+}
+iframe{
+    height: 35vw;
+}
+.edytaa iframe{
+    -webkit-box-shadow: 0px 0px 23px 14px #000000; 
+    box-shadow: 0px 0px 23px 14px #000000;
+}
+ .back-button{
+    font-size: 2.5vw;
+}
+.back-button i{
+    color: white;
+}
+/* WIKIPEDIA */
+    .fourth-slide{ 
+    background-repeat: no-repeat;
+background-image: url('https://w0.peakpx.com/wallpaper/199/132/HD-wallpaper-squid-game-trio-squid-game-2021-netflixkr-netflix-india-squid-games.jpg');
+    width: 100%;
+    height: 350vh;
+    background-position-y: 100%;
+    background-size: 50%;
+
+}
+
+@media only screen and (max-width:600px){
+    .fourth-slide{
+        height: 160vh;
+    }
+    .fulli-nalt{
+        height: 50vh;
+    }
+    .f-menu div a{
+        font-size: 80%;
+    }
+    .fulli-posht .djatht .fullplusat span{
+        font-size: 80%;
+    }
+}
+@media only screen and (max-width:400px){
+    .fulli-nalt{
+        height: 40vh;
+    }
+    .fourth-slide{
+        height: 110vh;
+    }
+    .f-menu div a{
+        font-size: 60%;
+    }
+    .fulli-posht .djatht .fullplusat span{
+        font-size: 60%;
+    }
+}
+@media only screen and (max-width:500px){
+    .fulli-nalt{
+        height: 40vh;
+    }
+    .fourth-slide{
+        height: 130vh;
+    }
+    .f-menu div a{
+        font-size: 60%;
+    }
+    .fulli-posht .djatht .fullplusat span{
+        font-size: 60%;
+    }
+}
+.fourth-slide .titulli-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourth-slide .titulli-f img{
+    width: 50%;
+}
+.fourth-slide .teksti{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.fourth-slide .titulli-g{
+    display: flex;
+    justify-content: center;
+}
+.fourth-slide .titulli-g img{
+    width: 50%;
+}
+.fourth-slide h3{
+    font-size: 1.5vw;
+    transform: translateY(210%);
+    margin-left: -42.5%;
+}
+.fourth-slide .titulli-l{
+    display: flex;
+    justify-content: center;
+}
+.fourth-slide .titulli-l img{
+    width: 50%;
+}
+.fourth-slide .back-button{
+    position: fixed;
+    margin-left: 0%;
+}
